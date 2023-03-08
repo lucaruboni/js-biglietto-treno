@@ -29,17 +29,31 @@ console.log(ticketPrice);
 
 
 /* sconti */
+let ticketPriceDiscounted;
 
-let underDiscount = Number(ticketPrice - (ticketPrice * 20 / 100));
-console.log(underDiscount);
+if (customerAge <= 18){
+    ticketPriceDiscounted = (ticketPrice - (ticketPrice * 20 / 100));
+    console.log("20%");
+}
 
-/* let overDiscount = Number(ticketPrice - (ticketPrice * 40 / 100));
-console.log(overDiscount);
+else if (customerAge >= 65){
+    ticketPriceDiscounted = (ticketPrice - (ticketPrice * 40 / 100));
+    console.log("40%");
+}
 
-if (customerAge <= 18) {
- underDiscount 
     
-} */
+
+// let overDiscount = Number(ticketPrice - (ticketPrice * 40 / 100));
+// console.log(overDiscount);
+
+/**
+ 
+if(eta < 18){
+    ticketprice = ticketprice * sconto
+}else if(eta > 65){
+    ticketprice = .....
+}
+ */
 
 
 
