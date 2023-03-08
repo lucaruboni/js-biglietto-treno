@@ -36,9 +36,14 @@ console.log(underDiscount);
 /* let overDiscount = Number(ticketPrice - (ticketPrice * 40 / 100));
 console.log(overDiscount);
 
-
 if (customerAge <= 18) {
  underDiscount 
     
 } */
+
+
+
+
+//L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). 
+
 
