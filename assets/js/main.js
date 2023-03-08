@@ -17,14 +17,24 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 const kilometers = prompt("How many km do you have to travel?");
 console.log(kilometers);
 
+/* anni del passeggero */
+
 const customerAge = prompt("What's your age?")
 console.log(customerAge);
+
+/* prezzo del biglietto */
 
 let ticketPrice = (Number(kilometers * 0.21))
 console.log(ticketPrice)
 
-if (customerAge <= 18) {
 
-    let ticketPrice = Math.
+/* sconti */
+
+let underDiscount = Number(ticketPrice - (ticketPrice * 20 / 100))
+console.log(underDiscount)
+
+if (customerAge <= 18) {
+ underDiscount 
+    
 }
 
