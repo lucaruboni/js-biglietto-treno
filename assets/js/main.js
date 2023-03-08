@@ -24,17 +24,21 @@ console.log(customerAge);
 
 /* prezzo del biglietto */
 
-let ticketPrice = (Number(kilometers * 0.21))
-console.log(ticketPrice)
+let ticketPrice = (Number(kilometers * 0.21));
+console.log(ticketPrice);
 
 
 /* sconti */
 
-let underDiscount = Number(ticketPrice - (ticketPrice * 20 / 100))
-console.log(underDiscount)
+let underDiscount = Number(ticketPrice - (ticketPrice * 20 / 100));
+console.log(underDiscount);
+
+/* let overDiscount = Number(ticketPrice - (ticketPrice * 40 / 100));
+console.log(overDiscount);
+
 
 if (customerAge <= 18) {
  underDiscount 
     
-}
+} */
 
