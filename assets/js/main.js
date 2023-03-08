@@ -49,3 +49,12 @@ else if (customerAge >= 65){
 
 /* price output */
 
+const ticketPriceRounded = ticketPrice.toFixed(2)
+console.log(ticketPriceRounded)
+
+const finalPrice = document.getElementById("final_price");
+console.log(finalPrice);
+
+
+
+finalPrice.innerHTML = ticketPriceRounded;
