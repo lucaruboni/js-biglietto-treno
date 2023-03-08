@@ -29,35 +29,23 @@ console.log(ticketPrice);
 
 
 /* sconti */
-let ticketPriceDiscounted;
+
 
 if (customerAge <= 18){
-    ticketPriceDiscounted = (ticketPrice - (ticketPrice * 20 / 100));
+    ticketPrice = Number(ticketPrice - (ticketPrice * 20 / 100));
+    console.log(ticketPrice);
     console.log("20%");
 }
 
 else if (customerAge >= 65){
-    ticketPriceDiscounted = (ticketPrice - (ticketPrice * 40 / 100));
+    ticketPrice = Number(ticketPrice - (ticketPrice * 40 / 100));
+    console.log(ticketPrice);
     console.log("40%");
 }
-
-    
-
-// let overDiscount = Number(ticketPrice - (ticketPrice * 40 / 100));
-// console.log(overDiscount);
-
-/**
- 
-if(eta < 18){
-    ticketprice = ticketprice * sconto
-}else if(eta > 65){
-    ticketprice = .....
-}
- */
-
-
 
 
 //L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). 
 
+
+/* price output */
 
